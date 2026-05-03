@@ -24,6 +24,7 @@ To set up JEST you can use the following command:
 npm install --save-dev jest
 ```
 Or you could also refer to the documentation for different methods.
+https://jestjs.io/docs/getting-started
 
 After which you can run the API test using this command in the terminal:
 ```
