@@ -1,6 +1,6 @@
 # ScalapayAssignment
 
-These tests were created using Puppeteer and JEST for the UI and API automated tests respecrively.
+These tests were created using Puppeteer and JEST for the UI and API automated tests respectively.
 
 ## Puppeteer and UI test setup
 To set up Puppeteer you can use the following command:
