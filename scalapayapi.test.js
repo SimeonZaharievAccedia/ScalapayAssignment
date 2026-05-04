@@ -1,7 +1,8 @@
 const axios = require('axios');
+require('dotenv').config({ path: './secrets.env' });
 
 describe('Scalapay Payment API', () => {
-  const url = 'https://integration.api.scalapay.com/v2/payments/----------';
+  const url = `https://integration.api.scalapay.com/v2/payments/${process.env.API_TOKEN}`;
 
   test('check payment GET is 200 and verify values', async () => {
     const response = await axios.get(url, {
