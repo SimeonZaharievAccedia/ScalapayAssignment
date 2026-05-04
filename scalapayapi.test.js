@@ -1,5 +1,5 @@
 const axios = require('axios');
-require('dotenv').config({ path: './secrets.env' });
+require('dotenv').config({ path: './.env' });
 
 describe('Scalapay Payment API', () => {
   const url = `https://integration.api.scalapay.com/v2/payments/${process.env.API_TOKEN}`;
