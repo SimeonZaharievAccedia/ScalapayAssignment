@@ -1,5 +1,5 @@
 const puppeteer = require('puppeteer');
-require('dotenv').config({ path: './secrets.env' });
+require('dotenv').config({ path: './.env' });
 
 describe('Scalapay UI Automated Test', () => {
   let browser;
