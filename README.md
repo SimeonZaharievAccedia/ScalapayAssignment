@@ -2,34 +2,28 @@
 
 These tests were created using Puppeteer and JEST for the UI and API automated tests respectively.
 
-## Puppeteer and UI test setup
+## Puppeteer, JEST and UI test setup
 To set up Puppeteer you can use the following command:
 ```
 npm i puppeteer
 ```
 You could also check out the documentation if you want to use a different method to set up Puppeteer.
 https://pptr.dev/guides/installation
-You also need JEST to run this test:
+You also need JEST to run both of the tests:
 ```
 npm install --save-dev jest
 ```
 
 Then running the test is as simple as running this:
 ```
-npm test scalapayapi.test.js
+npm test scalapayui.test.js
 ```
 in the terminal of your IDE by choice.
 
 
 
-## JEST and API test setup
-To set up JEST you can use the following command:
-```
-npm install --save-dev jest
-```
-Or you could also refer to the documentation for different methods.
-https://jestjs.io/docs/getting-started
-Here you also need axios to be able to run the test:
+## API test setup
+You will need axios to be able to run the test:
 ```
 npm install axios
 ```
@@ -45,4 +39,4 @@ The credentials are added to a .env file and the assigners for these assignments
 
 
 ## Conclusion
-The tests should pass locally assuming you are using the correct credentials.
+The tests should pass locally with no issues assuming you are using the correct credentials and have set up the tools correctly.
