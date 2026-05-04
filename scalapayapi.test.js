@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 describe('Scalapay Payment API', () => {
-  const url = 'https://integration.api.scalapay.com/v2/payments/A1KQ7URT63';
+  const url = 'https://integration.api.scalapay.com/v2/payments/----------';
 
   test('check payment GET is 200 and verify values', async () => {
     const response = await axios.get(url, {

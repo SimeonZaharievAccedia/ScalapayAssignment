@@ -8,7 +8,7 @@ await page.goto('https://partner.development.scalapay.com/login');
 await page.setViewport({width: 1920, height: 1080});
 
 await page.type("[id='email']", 'simeon.zahariev@accedia.com');
-await page.type("[id='password']", 'Sc@1@payAssignment123!');
+await page.type("[id='password']", '------------');
 await page.click('button[type="submit"]');
 await page.waitForNavigation({ waitUntil: 'networkidle0' });
 
