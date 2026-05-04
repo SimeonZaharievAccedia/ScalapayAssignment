@@ -9,10 +9,14 @@ npm i puppeteer
 ```
 You could also check out the documentation if you want to use a different method to set up Puppeteer.
 https://pptr.dev/guides/installation
+You also need JEST to run this test:
+```
+npm install --save-dev jest
+```
 
 Then running the test is as simple as running this:
 ```
-node scalapayui.js
+npm test scalapayapi.test.js
 ```
 in the terminal of your IDE by choice.
 
@@ -25,6 +29,10 @@ npm install --save-dev jest
 ```
 Or you could also refer to the documentation for different methods.
 https://jestjs.io/docs/getting-started
+Here you also need axios to be able to run the test:
+```
+npm install axios
+```
 
 After which you can run the API test using this command in the terminal:
 ```
@@ -33,7 +41,7 @@ npm test scalapayapi.test.js
 
 
 ## Credentials
-The credentials are added to a .env file and the assigners for these assignments should have them. You need to go into the tests and replace the "-------" places with the correct credentials for the UI and API tests.
+The credentials are added to a .env file and the assigners for these assignments should have them. A sample .env file has been provided in which you can should change the values.
 
 
 ## Conclusion
