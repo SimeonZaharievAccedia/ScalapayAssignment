@@ -30,5 +30,11 @@ After which you can run the API test using this command in the terminal:
 ```
 npm test scalapayapi.test.js
 ```
+
+
+## Credentials
+The credentials are added to a .env file and the assigners for these assignments should have them. You need to go into the tests and replace the "-------" places with the correct credentials for the UI and API tests.
+
+
 ## Conclusion
 The tests should pass locally assuming you are using the correct credentials.
