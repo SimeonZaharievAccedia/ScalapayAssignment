@@ -41,7 +41,7 @@ npm test scalapayapi.test.js
 
 
 ## Credentials
-The credentials are added to a .env file and the assigners for these assignments should have them. A sample .env file has been provided in which you can should change the values.
+The credentials are added to a .env file and the assigners for these assignments should have them. A sample .env file has been provided in which you can should change the values and remove the ".example" from the end, place it in the same directory as the tests and it uses the variables.
 
 
 ## Conclusion
