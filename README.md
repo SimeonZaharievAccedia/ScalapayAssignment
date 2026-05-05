@@ -13,6 +13,16 @@ You also need JEST to run both of the tests:
 ```
 npm install --save-dev jest
 ```
+You would also need to add dotenv with this:
+```
+npm install dotenv
+```
+And lastly you would need to add this in your package.json file:
+```
+scripts": {
+    "test": "jest"
+  }
+```
 
 Then running the test is as simple as running this:
 ```
